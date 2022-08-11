@@ -53,7 +53,7 @@ h3 {
   align-items: center;
   flex-direction: row;
   width: 90vw;
-  height: 30vh;
+  height: 40vh;
   min-height: 100px;
   border: 1px solid black;
   margin: 0 auto;
@@ -129,4 +129,19 @@ h3 {
 
 .justify_space_evenly {
   justify-content: space-evenly;
+}
+
+.items_center {
+  justify-content: center;
+  align-items: center;
+}
+
+.items_start {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.items_end {
+  align-items: flex-end;
+  justify-content: center;
 }
