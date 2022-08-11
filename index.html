@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Latihan Flexbox</title>
+  </head>
+  <body>
+    <!-- Top navigation -->
+    <nav class="navbar">
+      <h1 class="brand">Flex Direction</h1>
+      <menu class="nav_menu">
+        <a href="#row">Row</a>
+        <a href="#row_reverse">Row-reverse</a>
+        <a href="#column">Column</a>
+        <a href="#column_reverse">Column-reverse</a>
+      </menu>
+    </nav>
+    <!-- End Of Navigation -->
+
+    <!-- Page navigation -->
+    <nav class="page_navigation">
+      <a href="/wrap.html">Flex Direction</a>
+      <a href="/flex_wrap.html">Flex Wrap</a>
+      <a href="/justify_content.html">Justify Content</a>
+      <a href="/align_items.html">Align items</a>
+      <a href="/align_content.html">Align Content</a>
+    </nav>
+    <!-- End Of Navigation -->
+    <main>
+      <!-- default -->
+      <h1 id="row">flex direction Row (Default)</h1>
+      <div class="flex container_row">
+        <div>satu</div>
+        <div>dua</div>
+        <div>tiga</div>
+      </div>
+      <pre></pre>
+
+      <h1 id="row_reverse">flex direction Row Reverse</h1>
+      <div class="flex container_row_reverse">
+        <div>satu</div>
+        <div>dua</div>
+        <div>tiga</div>
+      </div>
+
+      <h1 id="column">flex direction Column</h1>
+      <div class="flex container_column">
+        <div>satu</div>
+        <div>dua</div>
+        <div>tiga</div>
+      </div>
+
+      <h1 id="column_reverse">flex direction Column Reverse</h1>
+      <div class="flex container_column_reverse">
+        <div>satu</div>
+        <div>dua</div>
+        <div>tiga</div>
+      </div>
+      <pre>
+      .container_column_reverse {
+        flex-direction: column-reverse;
+      }
+      </pre>
+    </main>
+  </body>
+</html>
