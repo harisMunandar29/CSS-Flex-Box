@@ -145,3 +145,11 @@ h3 {
   align-items: flex-end;
   justify-content: center;
 }
+
+.items_strech {
+  align-items: stretch;
+}
+
+.items_baseline {
+  align-items: baseline;
+}
